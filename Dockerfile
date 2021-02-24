@@ -1,4 +1,4 @@
-FROM tomcat:8
+FROM tomcat
 
-COPY /var/lib/jenkins/workspace/Demo_build_upload/target/*.war /usr/local/tomcat/webapps/
+COPY target/*.war  /usr/local/tomcat/webapps/
 
